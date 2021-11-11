@@ -3,7 +3,7 @@ $('.icon-box-faq').on('click', function () {
     return $(this)
       .removeClass('active')
       .css({
-        border: '1px solid #c6d0e3',
+        border: '0px solid #c6d0e3',
         boxShadow: 'none',
       })
       .find('h4')
@@ -16,7 +16,7 @@ $('.icon-box-faq').on('click', function () {
     .find('.icon-box-faq')
     .removeClass('active')
     .css({
-      border: '1px solid #c6d0e3',
+      border: '0px solid #c6d0e3',
       boxShadow: 'none',
     })
     .find('h4')
