@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #113681;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DC0017;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+@media (max-width: 460px) {
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 20px;
+    }
+}
